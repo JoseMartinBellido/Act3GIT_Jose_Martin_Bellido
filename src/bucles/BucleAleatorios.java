@@ -43,7 +43,7 @@ public class BucleAleatorios {
     Random random = new Random();
     
     // Creamos un bucle que imprima 30 números del 1 al 10.
-    for (int i = 0; i < 30; i++) {
+    for (int i = 0; i < 20; i++) {
       
       int numAleatorio = random.nextInt(1,10);
       System.out.println(numAleatorio);
